@@ -23,7 +23,8 @@ Gaurav Yadav
 <!-- <gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" /> -->
 <gap:platform name="android" />
 <preference name="loglevel" value="DEBUG"/> 
-<preference name='phonegap-version' value='cli-5.1.1'/>
+<preference name='phonegap-version' value='3.7.0'/>
+<!-- <preference name='phonegap-version' value='cli-5.1.1'/>-->
 <preference name="permissions" value="none"/>
 <preference name="orientation" value="default"/>
 <preference name="target-device" value="universal"/>
