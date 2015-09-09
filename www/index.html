@@ -4,14 +4,22 @@
 		<title>YouTube video</title>
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> 
 		<script type="text/javascript" src="phonegap.js"></script>
-	</head>
+
+
+<script type="text/javascript">
+	var video_embeded='PEfxz7PuI0g';	
+	alert(video_embeded);
+</script>
+
+</head>
 	<body>
        
 <!--        <iframe width="560" height="315" src="http://www.youtube.com/embed/9HDeEbJyNK8" frameborder="0" allowfullscreen></iframe> -->
         <a href="http://www.youtube.com/embed/9HDeEbJyNK8">OPEN VIDEO</a>
         
+this is video --- 
 <object>
-<param name="movie" value="https://www.youtube.com/v/PEfxz7PuI0g&hl=en_US&feature=player_embedded&version=3"></param>
+<param name="movie" value="https://www.youtube.com/v/"+video_embeded+"&hl=en_US&feature=player_embedded&version=3"></param>
 <param name="allowFullScreen" value="true"></param>
 <param name="allowScriptAccess" value="always"></param>
 <embed src="https://www.youtube.com/v/'+video_embeded+'?suggestedQuality=medium&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always">
