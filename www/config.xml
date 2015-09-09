@@ -19,6 +19,7 @@ Gaurav Yadav
 <access origin="*"/>
   
 <content src="index.html" /> 
+<gap:plugin name="com.moust.cordova.videoplayer" version="1.0.0" />
 <gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
 <gap:platform name="android" />
 <preference name="loglevel" value="DEBUG"/> 
